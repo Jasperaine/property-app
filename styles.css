@@ -1,0 +1,67 @@
+.nav-bar {
+    background: #24246C !important;
+    height: 100px;
+    margin-bottom: 25px;
+}
+.logo {
+    color: white;
+    font-size: 40px;
+    padding: 21.5px;
+    padding-left: 25px;
+    float: left;
+}
+.filter-wrapper {
+    width: 100%;
+    padding: 15px;
+    float: left;
+}
+.filter-options {
+    margin: auto;
+    padding: 5px;
+    padding-right: 20px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    float: left;
+}
+.results-wrapper {
+    width: 40%;
+    padding: 15px;
+    float: left;
+}
+.property-wrapper{
+    width: 60%;
+    padding: 15px;
+    float: left;
+}
+h4 {
+    padding-right: 10px;
+}
+.click {
+    float: right;
+}
+
+@media (min-width: 1024px) {
+    .tablet-hr {
+        display: none;
+    }
+    #search {
+        float: right;
+        margin-top: 10px;
+    }
+    .filter-wrapper {
+        width: 20%;
+    }
+    .results-wrapper {
+        width: 30%;
+    }
+    .property-wrapper {
+        width: 50%;
+    }
+    .filter-options {
+        float: none;
+        padding-right: 0px;
+        padding: 5px;
+    }
+
+}
